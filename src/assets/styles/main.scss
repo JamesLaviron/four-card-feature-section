@@ -18,6 +18,12 @@ main {
   max-width: $spacing-5400;
 }
 
+.header__titles {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
 .header__title {
   @include text-preset-1-mobile;
   text-align: left;
@@ -46,6 +52,7 @@ main {
   padding: $spacing-280;
   box-shadow: 0 1.5rem 3rem -1.1rem hsla(220, 60%, 2%, 0.5);
   border-radius: 0.8rem;
+  gap: $spacing-400;
 
   &:nth-of-type(1) {
     @include gradient-background($color-cyan);
@@ -75,7 +82,6 @@ main {
 
 .content__icon-container {
   justify-self: end;
-  padding-block-start: $spacing-330;
 }
 
 // Handle desktop
@@ -107,7 +113,12 @@ main {
 
 // Handle tablet
 @media ((min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet)) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .content__card:nth-of-type(1) {
+    gap: $spacing-330;
     grid-column: 1 / 2;
   }
 
@@ -121,5 +132,19 @@ main {
 
   .content__card:nth-of-type(4) {
     grid-column: 2 / 3;
+  }
+}
+
+@media (min-width: $breakpoint-mobile) {
+  .content__card-description {
+    padding-block-start: 0.6rem;
+  }
+
+  .header__title {
+    @include text-preset-1;
+  }
+
+  .header__subtitle {
+    @include text-preset-1-semibold;
   }
 }

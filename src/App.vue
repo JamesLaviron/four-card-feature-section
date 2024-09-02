@@ -12,10 +12,12 @@
     </header>
     <div class="content">
       <article class="content__card">
-        <h3 class="content__card-title">Supervisor</h3>
-        <p class="content__card-description">
-          Monitors activity to identify project roadblocks
-        </p>
+        <section>
+          <h3 class="content__card-title">Supervisor</h3>
+          <p class="content__card-description">
+            Monitors activity to identify project roadblocks
+          </p>
+        </section>
         <div class="content__icon-container">
           <img
             src="./assets/images/icon-supervisor.svg"
@@ -25,10 +27,12 @@
         </div>
       </article>
       <article class="content__card">
-        <h3 class="content__card-title">Team Builder</h3>
-        <p class="content__card-description">
-          Scans our talent network to create the optimal team for your project
-        </p>
+        <section>
+          <h3 class="content__card-title">Team Builder</h3>
+          <p class="content__card-description">
+            Scans our talent network to create the optimal team for your project
+          </p>
+        </section>
         <div class="content__icon-container">
           <img
             src="./assets/images/icon-team-builder.svg"
@@ -38,10 +42,12 @@
         </div>
       </article>
       <article class="content__card">
-        <h3 class="content__card-title">Karma</h3>
-        <p class="content__card-description">
-          Regularly evaluates our talent to ensure quality
-        </p>
+        <section>
+          <h3 class="content__card-title">Karma</h3>
+          <p class="content__card-description">
+            Regularly evaluates our talent to ensure quality
+          </p>
+        </section>
         <div class="content__icon-container">
           <img
             src="./assets/images/icon-karma.svg"
@@ -51,10 +57,12 @@
         </div>
       </article>
       <article class="content__card">
-        <h3 class="content__card-title">Calculator</h3>
-        <p class="content__card-description">
-          Uses data from past projects to provide better delivery estimates
-        </p>
+        <section>
+          <h3 class="content__card-title">Calculator</h3>
+          <p class="content__card-description">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+        </section>
         <div class="content__icon-container">
           <img
             src="./assets/images/icon-calculator.svg"
