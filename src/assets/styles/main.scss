@@ -1,8 +1,10 @@
+body {
+  background-color: $color-white;
+}
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $color-white;
   gap: $spacing-760;
   padding-inline: $spacing-320;
   padding-block: $spacing-850 $spacing-780;
