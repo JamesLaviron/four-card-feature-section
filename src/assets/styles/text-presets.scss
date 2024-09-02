@@ -1,0 +1,38 @@
+/* Text Preset 1 */
+@mixin text-preset-1 {
+  font-family: "Fraunces", serif;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+/* Text Preset 2 */
+@mixin text-preset-2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+  font-weight: 500;
+}
+
+/* Text Preset 3 */
+@mixin text-preset-3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+@mixin text-preset-3-striped {
+  @include text-preset-3;
+  font-size: 1.3rem;
+}
+
+/* Text Preset 4 */
+@mixin text-preset-4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  font-weight: 700;
+}
