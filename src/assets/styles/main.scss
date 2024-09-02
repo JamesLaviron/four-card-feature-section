@@ -3,18 +3,19 @@ main {
   flex-direction: column;
   align-items: center;
   background-color: $color-white;
-  gap: 7.6rem;
-  padding-inline: 3.2rem;
-  padding-block: 8.5rem 7.8rem;
+  gap: $spacing-760;
+  padding-inline: $spacing-320;
+  padding-block: $spacing-850 $spacing-780;
   color: $color-grey;
 }
 
 .header {
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: $spacing-160;
   justify-content: space-between;
   align-items: center;
+  max-width: $spacing-5400;
 }
 
 .header__title {
@@ -35,14 +36,14 @@ main {
 
 .content {
   display: grid;
-  gap: 2.5rem;
+  gap: $spacing-250;
 }
 
 .content__card {
   display: grid;
   grid-template-columns: 1fr;
   align-items: start;
-  padding: 2.8rem;
+  padding: $spacing-280;
   box-shadow: 0 1.5rem 3rem -1.1rem hsla(220, 60%, 2%, 0.5);
   border-radius: 0.8rem;
 
@@ -74,7 +75,7 @@ main {
 
 .content__icon-container {
   justify-self: end;
-  padding-block-start: 3.3rem;
+  padding-block-start: $spacing-330;
 }
 
 // Handle desktop
