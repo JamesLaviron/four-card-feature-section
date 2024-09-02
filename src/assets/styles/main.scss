@@ -53,6 +53,7 @@ main {
   box-shadow: 0 1.5rem 3rem -1.1rem hsla(220, 60%, 2%, 0.5);
   border-radius: 0.8rem;
   gap: $spacing-400;
+  max-width: 40rem;
 
   &:nth-of-type(1) {
     @include gradient-background($color-cyan);
