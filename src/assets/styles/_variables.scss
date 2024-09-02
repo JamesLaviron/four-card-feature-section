@@ -1,10 +1,11 @@
 // Colors
-$color-white: hsl(0, 0%, 100%);
-$color-cream: hsl(28, 38%, 92%);
-$color-grey: hsl(228, 12%, 48%);
-$color-green-100: hsl(157, 36%, 37%);
-$color-green-200: hsl(157, 43%, 18%);
-$color-black: hsl(212, 21%, 14%);
+$color-white: hsl(0, 0%, 98%);
+$color-red: hsl(0, 78%, 62%);
+$color-cyan: hsl(180, 62%, 55%);
+$color-orange: hsl(34, 97%, 64%);
+$color-blue: hsl(212, 86%, 64%);
+$color-grey: hsl(234, 12%, 34%);
 
 // Media queries
 $breakpoint-mobile: 600px;
+$breakpoint-tablet: 1024px;
